@@ -12,41 +12,41 @@ loop do
   case calculo
   when 1
     print 'Digite o primeiro número: '
-    num1 = gets.chomp.to_f
+    num1 = gets.chomp.to_i
     print 'Digite o segundo número: '
-    num2 = gets.chomp.to_f
+    num2 = gets.chomp.to_i
     resultado = num1 + num2
     puts "O resultado é #{resultado}"
 
   when 2
     print 'Digite o primeiro número: '
-    num1 = gets.chomp.to_f
+    num1 = gets.chomp.to_i
     print 'Digite o segundo número: '
-    num2 = gets.chomp.to_f
+    num2 = gets.chomp.to_i
     resultado = num1 - num2
     puts "O resultado é #{resultado}"
 
   when 3
     print 'Digite o primeiro número: '
-    num1 = gets.chomp.to_f
+    num1 = gets.chomp.to_i
     print 'Digite o segundo número: '
-    num2 = gets.chomp.to_f
+    num2 = gets.chomp.to_i
     resultado = num1 * num2
     puts "O resultado é #{resultado}"
 
   when 4
     print 'Digite o primeiro número: '
-    num1 = gets.chomp.to_f
+    num1 = gets.chomp.to_i
     print 'Digite o segundo número: '
-    num2 = gets.chomp.to_f
+    num2 = gets.chomp.to_i
     resultado = num1 / num2
     puts "O resultado é #{resultado}"
 
   when 5
     print 'Digite a base: '
-    base = gets.chomp.to_f
+    base = gets.chomp.to_i
     print 'Digite o expoente: '
-    expoente = gets.chomp.to_f
+    expoente = gets.chomp.to_i
     resultado = base ** expoente
     puts "O resultado é #{resultado}"
 
