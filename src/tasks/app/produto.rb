@@ -3,12 +3,5 @@ class Produto
       @nome = nome
       @preco = preco
   end
-  
-  def nome
-      @nome
-  end
-
-  def preco
-      @preco
-  end
+  attr_accessor :nome, :preco
 end

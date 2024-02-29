@@ -1,4 +1,4 @@
-class Mercado < Produto
+class Mercado
   def initialize(produto)
     @produto = produto
   end
