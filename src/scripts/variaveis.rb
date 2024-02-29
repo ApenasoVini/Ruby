@@ -32,6 +32,7 @@ change.change
 
 puts $x
 
+
 # Var de Classe
 class User
   @@user_count = 0
@@ -47,3 +48,20 @@ first_user.add('Vini')
 
 second_user = User.new
 second_user.add('Mateus')
+
+
+# Instancia
+class User
+  def add(name)
+    @name = name
+    puts 'User adicionado'
+    hello
+  end
+
+  def hello
+    puts "Seja bem vindo #{@name}"
+  end
+end
+
+user = User.new
+user.add('Vini')
