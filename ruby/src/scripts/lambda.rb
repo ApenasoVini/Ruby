@@ -1,4 +1,3 @@
-first_lambda = lambda { puts 'Oi' }
-first_lambda.call
-first_lambda.call
-first_lambda.call
+first_lambda = -> (names) { names.each { |name |puts name } }
+names = ['Vini', 'Pedro', 'Marcos']
+first_lambda.call(names)
