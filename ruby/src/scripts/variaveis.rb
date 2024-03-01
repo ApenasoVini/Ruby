@@ -5,7 +5,7 @@ def local
 end
 local
 
-puts local #Erro
+puts var #Erro
 
 
 # Global
